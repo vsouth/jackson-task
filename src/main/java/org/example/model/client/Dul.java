@@ -1,4 +1,4 @@
-package org.example.model.clientinfo;
+package org.example.model.client;
 
 public class Dul {
     private int documentType;

@@ -1,5 +1,8 @@
-package org.example.model.clientinfo;
+package org.example.model.client;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+
+@JacksonXmlRootElement(localName = "clientInfo")
 public class ClientInfo {
     private ClientFindInfo clientFindInfo;
 

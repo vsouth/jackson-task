@@ -1,4 +1,4 @@
-package org.example.model.personinfo;
+package org.example.model.person;
 
 public class PersonInfo {
     private FindPersonInfo findPersonInfo;
