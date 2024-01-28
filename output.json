@@ -1,0 +1,17 @@
+{
+  "PersonInfo": {
+    "FindPersonInfo": {
+      "PersonName": {
+        "LastName": "firstName",
+        "FirstName": "lastName",
+        "MiddleName": "secondName"
+      },
+      "IdentityCard": {
+        "IdType": 99,
+        "IdSeries": 6200,
+        "IdNum": 645354
+      },
+      "PartyID": 32
+    }
+  }
+}

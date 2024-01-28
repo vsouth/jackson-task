@@ -1,11 +1,23 @@
 package org.example.model.person;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class PersonName {
-    private String firstName;
+    @JsonProperty("LastName")
     private String lastName;
-    private String secondName;
+    @JsonProperty("FirstName")
+    private String firstName;
+    @JsonProperty("MiddleName")
+
+    private String middleName;
 
     public PersonName() {
+    }
+
+    public PersonName(String firstName, String lastName, String secondName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.middleName = secondName;
     }
 
     public String getFirstName() {
@@ -24,11 +36,11 @@ public class PersonName {
         this.lastName = lastName;
     }
 
-    public String getSecondName() {
-        return secondName;
+    public String getMiddleName() {
+        return middleName;
     }
 
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
     }
 }
