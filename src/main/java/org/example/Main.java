@@ -17,6 +17,6 @@ public class Main {
         Mapper mapper = new Mapper();
         PersonInfo personInfo = mapper.mapClientToPerson(clientInfo);
         Writer<PersonInfo> jsonWriter = new JSONWriter();
-        jsonWriter.writeData("output.json", personInfo);
+        jsonWriter.writeData("PersonInfo.json", personInfo);
     }
 }
